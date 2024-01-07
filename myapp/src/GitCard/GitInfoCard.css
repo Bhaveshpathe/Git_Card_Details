@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.Deshboard {
+  width: 100%;
+  height: 100vh;
+  background: url("./GitImagecard.jpeg")no-repeat;
+  background-size: cover;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Deshboard h1{
+  color:#f16c6c;
+}
+.Deshboard .GitInfoCard{
+  width:25%;
+  gap:10px;
+  display: flex;
+  flex-direction: column;
+}
+.Deshboard input {
+padding:5px;
+border-radius: 10px;
+border:none;
+}
+.Deshboard p{
+  color: #f16c6c;
+}
+.Deshboard button {
+  padding:5px ;
+  color: White;
+  background: rgb(97, 216, 236);
+  border:none;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+  box-shadow: 0 0 5px #03e9f4, 0 0 5px #03e9f4, 0 0 5px #03e9f4,
+    0 0 100px #f403e4;
+}
+.Deshboard button:hover{
+  cursor: pointer;
+}
+.Deshboard .UserData {
+  width: 25%;
+  height: 60vh;
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  border: 7px groove #00fffc;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Deshboard .UserData h2{
+  color:#f16c6c;
+}
+.Deshboard .UserData img {
+  border-radius: 50%;
+  width: 65%;
+  filter: drop-shadow(10px 7px 8px #6ce8f1);
+}
